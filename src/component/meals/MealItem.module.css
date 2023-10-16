@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+
+  padding: 1rem;
+
+  border: none;
+  border-radius: 7px;
+  border-bottom: 1px solid #ccc;
+
+  box-shadow: inherit;
+}
+.props {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.name {
+  font-size: large;
+  font-weight: bold;
+}
+.description {
+  font-style: italic;
+}
+.price {
+  color: #ad5502;
+  font-weight: bold;
+  font-size: 1.25rem;
+}

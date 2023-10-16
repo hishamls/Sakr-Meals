@@ -1,0 +1,12 @@
+.item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.amount {
+  font-size: large;
+  font-weight: bold;
+}
+input {
+  width: 3rem;
+}

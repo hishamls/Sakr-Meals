@@ -1,0 +1,52 @@
+.background {
+  width: 100%;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 10;
+
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.foreground {
+  width: 50%;
+
+  position: fixed;
+  top: 20vh;
+  left: 25%;
+
+  z-index: 15;
+
+  padding: 1rem;
+
+  border: none;
+  border-radius: 25px;
+
+  background-color: white;
+  color: #000;
+
+  box-shadow: 0 2px 4px 6px rgba(0, 0, 0, 0.25);
+
+  animation: slide-down 300ms ease-out forwards;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+}

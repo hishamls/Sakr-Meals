@@ -1,0 +1,35 @@
+.cart-items {
+  list-style: none;
+
+  max-height: 45vh;
+
+  overflow: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0px 1rem;
+  margin-bottom: 2.5rem;
+
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.action {
+  text-align: right;
+}
+
+.close {
+  color: #641e03;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+.close:hover,
+.close:active {
+  /* SAME THE DEFAULT BUTTON  */
+  color: white;
+  background-color: #641e03;
+  border-color: #641e03;
+}
